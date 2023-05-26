@@ -1,0 +1,2 @@
+# Novelty-detection-by-Isolation-Forest
+In this code, we load the credit card dataset and split it into a training set and a validation set. We preprocess the data using standard scaling, then train an isolation forest model on the training set. We use the validation set to tune the threshold by varying the anomaly probability score and evaluating the F1 score. Finally, we use the trained model and the tuned threshold to predict anomalies in the test set and evaluate the model's performance using classification report.
